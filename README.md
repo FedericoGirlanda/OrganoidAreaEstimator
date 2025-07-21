@@ -5,7 +5,7 @@
   <div style="flex: 1;">
     The program allows you to estimate the area of an organoid even if only a part of it is visible in the image. By analyzing the visible section, the tool extrapolates the total area, providing a useful measurement for research and analysis.
   </div>
-  <img src="docs/icon.PNG" alt="APP icon" style="width: 50px; margin-left: 24px; border-radius: 8px;"/>
+  <img src="docs/icon.png" alt="APP icon" style="width: 50px; margin-left: 24px; border-radius: 8px;"/>
 </div>
 
 ## Usage
@@ -24,13 +24,13 @@ Below is an example of the application's input and output. The left side shows t
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 50%; text-align: center;">
     <strong>Input</strong><br/>
-    <img src="results/organoidPart.jpg" alt="Organoid partial" style="width: 90%;"/>
-    <img src="results/textInput.png" alt="Organoid partial" style="width: 90%;"/>
+    <img src="results/organoidPart.jpg" alt="Organoid partial" style="width: 45%;"/>
+    <img src="results/textInput.png" alt="Organoid partial" style="width: 45%;"/>
   </div>
   <div style="width: 40%; text-align: center;">
     <strong>Output</strong><br/>
-    <img src="results/organoidPart_full.jpg" alt="Organoid estimation" style="width: 90%;"/>
-    <img src="results/textOutput.png" alt="Organoid estimation" style="width: 90%;"/>
+    <img src="results/organoidPart_full.jpg" alt="Organoid estimation" style="width: 45%;"/>
+    <img src="results/textOutput.png" alt="Organoid estimation" style="width: 45%;"/>
   </div>
 </div>
 
