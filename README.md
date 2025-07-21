@@ -24,15 +24,19 @@ Below is an example of the application's input and output. The left side shows t
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 50%; text-align: center;">
     <strong>Input</strong><br/>
-    <img src="results/organoidPart.jpg" alt="Organoid partial" style="width: 45%;"/>
-    <img src="results/textInput.png" alt="Organoid partial" style="width: 45%;"/>
+    <img src="inputs/organoidPart1.jpg" alt="Organoid partial" style="width: 45%;"/>
+    <img src="docs/textInput.png" alt="Organoid partial" style="width: 45%;"/>
   </div>
   <div style="width: 40%; text-align: center;">
     <strong>Output</strong><br/>
-    <img src="results/organoidPart_full.jpg" alt="Organoid estimation" style="width: 45%;"/>
-    <img src="results/textOutput.png" alt="Organoid estimation" style="width: 45%;"/>
+    <img src="OAE_results/organoidPart1_full.jpg" alt="Organoid estimation" style="width: 45%;"/>
+    <img src="docs/textOutput.png" alt="Organoid estimation" style="width: 45%;"/>
   </div>
 </div>
+
+## Future Works
+
+The estimation currently struggles with "almost full" objects. Further analysis will be conducted to address this behavior. However, we argue that calculating the area of fully visible objects is beyond the scope of this program, as there are already existing tools designed for that purpose.
 
 ## Credits
 
